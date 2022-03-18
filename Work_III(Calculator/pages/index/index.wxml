@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="operationalResults">
+	<view id="mathematicalOperations" style="{{opsResStyle.mathOp}}">
+		{{mathOps}}
+	</view>
+	<view id="result" style="{{opsResStyle.results}}">
+		{{result}}
+	</view>
+</view>
+<view class="operationalButtons">
+
+	<view class="operationsControl">
+		<view wx:for="{{extraOpsButtons}}">
+			<button class="baseBtns" bindtap="btnClick" data-btnVal="{{extraOpsButtons[index]}}" hover-class="defaultHover" hover-start-time="100" hover-stay-time="300">{{extraOpsButtons[index]}}</button>
+		</view>
+		<button class="baseBtns eleAriOpsBtns" bindtap="btnClick" data-btnVal="{{eleAriOpsButtons[0]}}" hover-class="eleAriHover" hover-start-time="100" hover-stay-time="300">{{eleAriOpsButtons[0]}}</button>
+	</view>
+
+	<view class="operationsControl">
+		<view wx:for="{{baseButtons[0]}}">
+			<button class="baseBtns" bindtap="btnClick" data-btnVal="{{item}}" hover-class="defaultHover" hover-start-time="100" hover-stay-time="300">{{item}}</button>
+		</view>
+		<button class="baseBtns eleAriOpsBtns" bindtap="btnClick" data-btnVal="{{eleAriOpsButtons[1]}}" hover-class="eleAriHover" hover-start-time="100" hover-stay-time="300">{{eleAriOpsButtons[1]}}</button>
+	</view>
+
+	<view class="operationsControl">
+		<view wx:for="{{baseButtons[1]}}">
+			<button class="baseBtns" bindtap="btnClick" data-btnVal="{{item}}" hover-class="defaultHover" hover-start-time="100" hover-stay-time="300">{{item}}</button>
+		</view>
+		<button class="baseBtns eleAriOpsBtns" bindtap="btnClick" data-btnVal="{{eleAriOpsButtons[2]}}" hover-class="eleAriHover" hover-start-time="100" hover-stay-time="300">{{eleAriOpsButtons[2]}}</button>
+	</view>
+
+	<view class="operationsControl">
+		<view wx:for="{{baseButtons[2]}}">
+			<button class="baseBtns" bindtap="btnClick" data-btnVal="{{item}}" hover-class="defaultHover" hover-start-time="100" hover-stay-time="300">{{item}}</button>
+		</view>
+		<button class="baseBtns eleAriOpsBtns" bindtap="btnClick" data-btnVal="{{eleAriOpsButtons[3]}}" hover-class="eleAriHover" hover-start-time="100" hover-stay-time="300">{{eleAriOpsButtons[3]}}</button>
+	</view>
+	
+	<view class="operationsControl">
+		<view wx:for="{{baseButtons[3]}}">
+			<button class="baseBtns" bindtap="btnClick" data-btnVal="{{item}}" hover-class="defaultHover" hover-start-time="100" hover-stay-time="300">{{item}}</button>
+		</view>
+		<button class="baseBtns equalBtn" bindtap="btnClick" data-btnVal="{{equalButton[0]}}"hover-start-time="100" hover-stay-time="300">{{equalButton}}</button>
+	</view>
+</view>
+

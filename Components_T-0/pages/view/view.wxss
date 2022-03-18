@@ -1,0 +1,29 @@
+/* pages/view/view.wxss */
+.view {
+  width: 750rpx;
+  height: 10vh;
+  background: #f00;
+  color: #fff;
+  font-family: 'SF Pro','SF Pro Display';
+  display: flex;
+  justify-content: center;  /* 字元素在主轴上的对齐方式 */
+  align-items: center;  /* 字元素在交叉轴上的对齐方式 */
+}
+
+.child {
+  width: 200rpx;
+  height: 5vh;
+  background: #0f0;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.black {
+  background: #000;
+}
+
+.swpi {
+  background: #d9d9d9;
+}

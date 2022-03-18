@@ -1,0 +1,89 @@
+/**index.wxss**/
+/* baoliu yanse #5bcefa (blue)
+    #f5a9b8 (pink)
+*/
+
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+// 这里是上面部分，显示当前操作和结果
+.operationalResults {
+  flex: 1;
+  background-color: #fff;
+  text-align: right;
+  color: #000;
+  font-family: "SF Pro Rounded";
+  // 这里是算式显示部分
+  #mathematicalOperations {
+    position: relative;
+    top: 63%;
+    right: 15px;
+    font-weight: 400;
+  }
+  // 这里是结果显示部分
+  #result {
+    color: #b4b4b4;
+    position: relative;
+    top: 64%;
+    right: 15px;
+    font-weight: 0;
+  }
+}
+// 这里是下面部分，显示计算器基本按钮
+.operationalButtons {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 80%;
+  background: #fafafa;
+  font-family: "SF Pro Rounded";
+  margin: 0;
+  // 运算控制区域
+  .operationsControl {
+    display: flex;
+    flex-flow: row;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 2px;
+    margin: auto;
+  }
+  // 基本数字区域
+  .baseBtns {
+    position: relative;
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 6px 0;
+    background: #fafafa;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0.7rem 1rem 0.7rem 1rem;
+  }
+  // 四则运算区域
+  .eleAriOpsBtns {
+    background: #ebebeb;
+  }
+  // 等于区域
+  .equalBtn {
+    color: #fff;
+    background: #2245bb;
+  }
+  // 除最右列运算符区域以外的hover格式
+  .defaultHover {
+    color: #000;
+    background: #e8e8e8;
+    transform: none;
+  }
+  // 四则运算符的hover格式
+  .eleAriHover {
+    color: #000;
+    background: #d9d9d9;
+    transform: none;
+    
+  }
+
+}

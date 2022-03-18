@@ -1,0 +1,18 @@
+<!--pages/guestInformation.wxml-->
+<!-- gi 是 guestInformation 的缩写 -->
+<view class="gi" style="height: {{screenHeight}}rpx">
+  
+  <view class="giForm">
+    <form class="showedForm" report-submit="false" bindsubmit="formSubmit" bindreset="">
+      <input class="showedInput" name="name" value="{{nameInputValue}}" type="text" placeholder="请输入您的姓名" placeholder-class="inputPlaceholderStyle"
+        maxlength="6" focus="true" bindblur="checkName" bindinput="inputNameData"/>
+      <input class="showedInput" name="phone" value="{{phoneInputValue}}" type="number" placeholder="请输入您的手机号" placeholder-class="inputPlaceholderStyle"
+        maxlength="11" bindblur="checkPhone" bindinput="inputPhoneData" />
+      <picker class="showedPicker"  name="NumOfPeople" mode="selector" range="{{numberOfPeople}}" value="{{item}}" bindchange="pickerChange">
+        <input class="showedInput" value="参加婚礼人数：{{selectorSelectedValue}}" type="number" placeholder="参加婚礼人数：" placeholder-style="" placeholder-class="inputPlaceholderStyle" disabled="false"/>
+      </picker>
+      <input class="showedInput" name="blessingWords" value="{{blessingWords}}" type="text" placeholder="说些祝福的话语吧" placeholder-class="inputPlaceholderStyle" bindinput="inputBlessingWordsData" />
+      <button class="submitBtn" form-type="submit" 	hover-class="submitBtnHover">提交</button>
+    </form>
+  </view>
+</view>

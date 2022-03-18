@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="foo" style="height:{{screenHeight}}rpx">
+  <swiper style="height:{{screenHeight}}rpx" indicator-color="{{indicatorColor}}" 
+          indicator-active-color="{{indicatorActiveColor}}" indicator-dots="{{indicatorDots}}" 
+          autoplay="{{autoplay}}" interval="{{interval}}" 
+          duration="{{duration}}" vertical="{{vertical}}"
+          circular="{{circular}}">
+    <swiper-item class="imgSwiper" wx:for="{{imagesList}}">
+      <image class="img" src="{{item}}" webp="{{webp}}" mode="scaleToFill"/>
+    </swiper-item>
+  </swiper>
+</view>

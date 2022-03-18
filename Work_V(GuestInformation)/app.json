@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/guestInformation/guestInformation",
+        "pages/invitation/invitation",
+        "pages/goodTime/goodTime",
+        "pages/photos/photos",
+        "pages/weddingVenue/weddingVenue"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#FF4C91",
+        "navigationBarTitleText": "宾客信息",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/invitation/invitation",
+                "text": "邀请函",
+                "iconPath": "images/invite.png",
+                "selectedIconPath": "images/invite.png"
+            },
+            {
+                "pagePath": "pages/photos/photos",
+                "text": "照片",
+                "iconPath": "images/marry.png",
+                "selectedIconPath": "images/marry.png"
+            },
+            {
+                "pagePath": "pages/goodTime/goodTime",
+                "text": "美好时光",
+                "iconPath": "images/video.png",
+                "selectedIconPath": "images/video.png"
+
+            },
+            {
+                "pagePath": "pages/weddingVenue/weddingVenue",
+                "text": "婚礼地点",
+                "iconPath": "images/map.png",
+                "selectedIconPath": "images/map.png"
+            },
+            {
+                "pagePath": "pages/guestInformation/guestInformation",
+                "text": "宾客信息",
+                "iconPath": "images/guest.png",
+                "selectedIconPath": "images/guest.png"
+            }
+        ],
+        "selectedColor": "#FF4C91"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

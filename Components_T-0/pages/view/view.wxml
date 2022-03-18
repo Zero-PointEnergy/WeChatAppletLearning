@@ -1,0 +1,36 @@
+<!-- 
+  1.块状元素会换行
+-->
+<view class="view" hover-class="black">
+  安!
+  <view class="child" hover-class="yellow" hover-stop-propagation="true" hover-start-time="1000">
+    孩子节点
+  </view>
+</view>
+
+<swiper indicator-dots="true" indicator-color="#58D6F7FF" 
+indicator-active-color="#F7B7CD" autoplay="true" 	
+current="1" interval="3000"
+duration="1000" vertical="true">
+<!--
+  duration 衔接滑动 感觉像是直接切换
+-->
+  <swiper-item class="swpi">
+    test1
+  </swiper-item>
+  <swiper-item class="swpi">
+    test2
+  </swiper-item>
+  <swiper-item class="swpi">
+    test3
+  </swiper-item>
+</swiper>
+
+<view class="section">
+  <view class="section__title">普通选择器</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      当前选择：{{array[index]}}
+    </view>
+  </picker>
+</view>
