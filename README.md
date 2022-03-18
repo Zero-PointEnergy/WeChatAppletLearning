@@ -11,4 +11,4 @@ Work_IV(Swiper) is a carousel applet that was written while learning about the S
 
 Work_V(GuestInformation) Uh ...... I don't know how to explain what it is. Anyway, the final implementation is shown below.
 
-<img src="https://cdn.jsdelivr.net/gh/Zero-PointEnergy/imagesForWeChatMiniProgram@master/20220318/init&afterSubmit.4yjcox3gpvg0.webp" alt="init&afterSubmit" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/gh/Zero-PointEnergy/imagesForWeChatMiniProgram@master/20220318/init&afterSubmit.4yjcox3gpvg0.webp" alt="init&afterSubmit" style="zoom: 10%;" />
