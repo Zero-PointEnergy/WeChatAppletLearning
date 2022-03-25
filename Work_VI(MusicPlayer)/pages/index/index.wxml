@@ -9,16 +9,24 @@
 	<view class="body">
 		<swiper current="{{currentTab}}" bindchange="slideTab">
 			<swiper-item class="" item-id="">
-				1
+				<scroll-view>
+					
+				</scroll-view>
 			</swiper-item>
 			<swiper-item class="" item-id="">
-				2
+				<scroll-view>
+					
+				</scroll-view>
 			</swiper-item>
 			<swiper-item class="" item-id="">
-				3
+				<scroll-view>
+					
+				</scroll-view>
 			</swiper-item>
 			<swiper-item class="" item-id="">
-				
+				<scroll-view>
+					
+				</scroll-view>
 			</swiper-item>
 		</swiper>
 	</view>
