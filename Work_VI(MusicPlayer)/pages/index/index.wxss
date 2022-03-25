@@ -1,1 +1,1 @@
-/**index.wxss**/
+.YPM{display:flex;flex-flow:column;background:#6cf;height:100vh;font-family:'SF Pro Display'}.YPM .head{display:flex}.YPM .head .item{flex:1;font-size:13pt;font-weight:600;color:#000;text-align:center}.YPM .head .tabSelected{color:#2E60EE}.YPM .head .search{background-color:#d9d9d9}.YPM .head .search .searchIcon{height:24px;width:24px;margin-right:16px}
