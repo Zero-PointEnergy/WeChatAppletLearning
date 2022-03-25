@@ -5,17 +5,25 @@
 		<view class="home item {{currentTab==0?'tabSelected':''}}" data-item="0" bindtap="switchTabs">首页</view>
 		<view class="discover item {{currentTab==1?'tabSelected':''}}" data-item="1" bindtap="switchTabs">发现</view>
 		<view class="musicLibrary item {{currentTab==2?'tabSelected':''}}" data-item="2" bindtap="switchTabs">音乐库</view>
-		<view class="search">
-			<image src="images" />
-			<input type="text" adjust-position="false"/>
-		</view>
 	</view>
 	<view class="body">
-		
+		<swiper current="{{currentTab}}" bindchange="slideTab">
+			<swiper-item class="" item-id="">
+				1
+			</swiper-item>
+			<swiper-item class="" item-id="">
+				2
+			</swiper-item>
+			<swiper-item class="" item-id="">
+				3
+			</swiper-item>
+			<swiper-item class="" item-id="">
+				
+			</swiper-item>
+		</swiper>
 	</view>
 
 	<view class="foot">
 		
 	</view>
 </view>
-

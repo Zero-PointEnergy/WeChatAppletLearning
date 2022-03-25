@@ -10,4 +10,9 @@ Page({
         })
         console.log("current tab is :", this.data.currentTab);
     },
+    slideTab(res) {
+        this.setData({
+            currentTab: res.detail.current
+        })
+    }
 })
