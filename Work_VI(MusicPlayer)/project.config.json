@@ -6,7 +6,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": true,
     "postcss": true,
@@ -41,13 +41,12 @@
     "minifyWXML": true,
     "showES6CompileOption": false,
     "useCompilerPlugins": false,
-    "ignoreUploadUnusedFiles": true,
-    "cloudfunctionRoot": "cloudfunction/"
+    "ignoreUploadUnusedFiles": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.23.2",
   "appid": "wxa6ae775ea00d2c4d",
-  "projectname": "Work_VI(MusicPlayer)",
+  "projectname": "workVIMusicPlayer",
   "debugOptions": {
     "hidedInDevtools": []
   },
@@ -59,6 +58,7 @@
   "isGameTourist": false,
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
     "search": {
       "list": []
@@ -78,11 +78,11 @@
     "miniprogram": {
       "list": [
         {
-        "id": -1,
-        "name": "musicPlayer",
-        "pathName": "pages/index/index"
-      }
-    ]
+          "id": -1,
+          "name": "musicPlayer",
+          "pathName": "pages/index/index"
+        }
+      ]
     }
   }
 }
